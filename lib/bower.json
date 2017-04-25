@@ -6,7 +6,7 @@
   "description": "",
   "main": "",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/Matthensley777/google-places-api",
   "ignore": [
     "**/.*",
     "node_modules",
