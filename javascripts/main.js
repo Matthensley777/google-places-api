@@ -49,15 +49,15 @@ const writeAddressToDom = (address) => {
 	let outPutString = `<div>${address}</div>`;
 	$("#addresses").apend(outPutString);
 
-}
+};
 
 const writePlaceToDom = (result) => {
 	let outPutString = "";
 	for(let i = 0; i < result.length; i++) {
-		outPutString += `<a href="#"><div id="${result[i].place_id}" class="place">${result[i].name}</div>`
+		outPutString += `<a href="#"><div id="${result[i].place_id}" class="place">${result[i].name}</div>`;
 	}
 	$('#input').html(outPutString);
-}
+};
 
 	});
 
